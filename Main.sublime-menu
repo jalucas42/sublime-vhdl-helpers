@@ -1,0 +1,17 @@
+[
+    {
+        "id": "help"
+    },
+    {
+      "caption": "-",
+    },
+    {
+        "command": "new_file",
+        "caption": "VHDL",
+        "children":
+        [
+           { "command": "vhdl_port_decl_to_signal_decl", "caption": "Port listing -> signal declaration" },
+        ]
+    },
+
+]
