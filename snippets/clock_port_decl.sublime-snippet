@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:    -- Clocks and resets}
+    clk_${2:g}                     ${3}: ${5:IN } STD_LOGIC;
+    arstz_${2:g}q                  ${3}: ${5:IN } STD_LOGIC;  
+]]></content>
+    
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!--<tabTrigger>i_syncp</tabTrigger>-->
+    
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.vhdl</scope>
+    
+    <description>Clock/reset port declaration</description>
+</snippet>

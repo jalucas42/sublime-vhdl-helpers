@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+    -- ${1:Video inputs}
+    ${2:in}_fsync_${3:g}q          ${4}: ${5:IN } STD_LOGIC;
+    ${2:in}_lsync_${3:g}q          ${4}: ${5:IN } STD_LOGIC;
+    ${2:in}_ivalid_${3:g}q         ${4}: ${5:IN } STD_LOGIC;
+    ${2:in}_a_${3:g}q              ${4}: ${5:IN } ${6:STD_LOGIC_VECTOR(7 DOWNTO 0)};
+    ${2:in}_b_${3:g}q              ${4}: ${5:IN } ${6:STD_LOGIC_VECTOR(7 DOWNTO 0)};
+    ${2:in}_c_${3:g}q              ${4}: ${5:IN } ${6:STD_LOGIC_VECTOR(7 DOWNTO 0)};
+  
+]]></content>
+    
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!--<tabTrigger>i_syncp</tabTrigger>-->
+    
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.vhdl</scope>
+    
+    <description>Video port declaration</description>
+</snippet>
