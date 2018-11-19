@@ -6,11 +6,12 @@
       "caption": "-",
     },
     {
-        "command": "new_file",
         "caption": "VHDL",
         "children":
         [
            { "command": "vhdl_port_decl_to_signal_decl", "caption": "Port listing -> signal declaration" },
+           { "command": "vhdl_port_decl_to_port_assign_copy", "caption": "Port listing -> port assignment (copy)" },
+           { "command": "vhdl_port_decl_to_port_assign_blank", "caption": "Port listing -> port assignment (blank)" },
         ]
     },
 
